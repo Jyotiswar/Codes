@@ -23,7 +23,7 @@ class solution{
         for(int k = 0 ; k < 4 ; k++){
             //fetching the rows and columns, taking the ways  
             int row = i + x[k];
-            int column = i + y[k];
+            int column = j + y[k];  
             //after taking the ways we need to  check them
             //we use valid function to check the water
             //then we check by the visited array 
